@@ -91,8 +91,8 @@ public struct MultiLineChartView: View {
                             }else{
                                 Image(systemName: "arrow.down")
                             }
-                            Text("\(rateValue ?? 0)%")*/
-                        }
+                            Text("\(rateValue ?? 0)%")
+                        }*/
                     }
                     .transition(.opacity)
                     .animation(.easeIn(duration: 0.1))
